@@ -10,7 +10,7 @@ query=cur.execute('SELECT postal_code FROM placeall WHERE scanned=0').fetchall()
 
 for i in query:
     for i in i:
-        print i
+        print (i)
         try:
             url=('{}{}').format(googleapi,i)
             html = urllib.urlopen(url).read()
@@ -22,4 +22,4 @@ for i in query:
         except:
             pass
 
-print 'done'
+print ('done')

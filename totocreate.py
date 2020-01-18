@@ -8,6 +8,7 @@ cur.executescript('''
 DROP TABLE IF EXISTS date;
 DROP TABLE IF EXISTS jackpot_no;
 DROP TABLE IF EXISTS place;
+DROP TABLE IF EXISTS placeall;
 
 
 CREATE TABLE date (
@@ -41,4 +42,4 @@ CREATE TABLE placeall (
 )
 ''')
 
-print 'Database and tables Created'
+print ('Database and tables Created')
