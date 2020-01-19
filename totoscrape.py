@@ -13,7 +13,7 @@ cur = conn.cursor()
 if platform.system() == 'Windows':
     cdriver = r'C:\Users\kenye\Downloads\chromedriver_win32\chromedriver.exe'
 else:  # for macOS
-    cdriver = r'/xxx/MyPythonScripts/chromedriver_mac'
+    cdriver = '/usr/local/bin/chromedriver'
 
 url = 'http://www.singaporepools.com.sg/en/product/sr/Pages/toto_results.aspx?sppl=RHJhd051bWJlcj0zMjM4'
 driver = webdriver.Chrome(cdriver)

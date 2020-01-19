@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c484b017-2a62-4b71-a791-a64ff263da3c" name="Default Changelist" comment="" />
+    <list default="true" id="c484b017-2a62-4b71-a791-a64ff263da3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/toto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/toto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toto.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/toto.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/totoscrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/totoscrape.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +26,28 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="toto" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="toto" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="toto" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="toto" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="Git.Settings">
@@ -26,13 +55,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WTtg5CefvdCyVelO27XJeuaRHa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -41,7 +75,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.totoscrape">
     <configuration name="toto_all_locations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -113,8 +147,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.totoscrape" />
-        <item itemvalue="Python.toto_all_locations" />
         <item itemvalue="Python.totocreate" />
+        <item itemvalue="Python.toto_all_locations" />
       </list>
     </recent_temporary>
   </component>
@@ -123,12 +157,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:toto" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -148,53 +177,67 @@
       <workItem from="1579185524945" duration="211000" />
       <workItem from="1579185751552" duration="88000" />
       <workItem from="1579185848404" duration="2994000" />
+      <workItem from="1579423664497" duration="964000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="872" y="359" key="#SQL_Dialects" timestamp="1579187508969">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="359" key="#SQL_Dialects/0.0.2560.1400/460.1440.1920.1040@0.0.2560.1400" timestamp="1579187508969" />
+    <state x="560" y="277" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579424633986">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="560" y="277" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1579424633986" />
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1579186721502">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/460.1440.1920.1040@0.0.2560.1400" timestamp="1579186721502" />
-    <state width="1233" height="401" key="GridCell.Tab.0.bottom" timestamp="1579188844366">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom" timestamp="1579424696943">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1233" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/460.1440.1920.1040@0.0.2560.1400" timestamp="1579188844366" />
-    <state width="1233" height="401" key="GridCell.Tab.0.center" timestamp="1579188844366">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1579424696943" />
+    <state width="1878" height="328" key="GridCell.Tab.0.center" timestamp="1579424696942">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1233" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/460.1440.1920.1040@0.0.2560.1400" timestamp="1579188844366" />
-    <state width="1233" height="401" key="GridCell.Tab.0.left" timestamp="1579188844366">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="328" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1579424696942" />
+    <state width="1878" height="328" key="GridCell.Tab.0.left" timestamp="1579424696942">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1233" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/460.1440.1920.1040@0.0.2560.1400" timestamp="1579188844366" />
-    <state width="1233" height="401" key="GridCell.Tab.0.right" timestamp="1579188844366">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="328" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1579424696942" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right" timestamp="1579424696943">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1233" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/460.1440.1920.1040@0.0.2560.1400" timestamp="1579188844366" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1579186892600">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1579424696943" />
+    <state width="239" height="385" key="HiddenNamespacesPopup" timestamp="1579424533122">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.2560.1400/460.1440.1920.1040@0.0.2560.1400" timestamp="1579186892600" />
-    <state x="781" y="343" key="SettingsEditor" timestamp="1579186731335">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="239" height="385" key="HiddenNamespacesPopup/0.23.1920.1177@0.23.1920.1177" timestamp="1579424533122" />
+    <state x="586" y="311" key="SettingsEditor" timestamp="1579423685101">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="781" y="343" key="SettingsEditor/0.0.2560.1400/460.1440.1920.1040@0.0.2560.1400" timestamp="1579186731335" />
+    <state x="586" y="311" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1579423685101" />
     <state x="981" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1579185851568">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="981" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/460.1440.1920.1040@0.0.2560.1400" timestamp="1579185851568" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/toto$totoscrape.coverage" NAME="totoscrape Coverage Results" MODIFIED="1579188705094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/toto$totocreate.coverage" NAME="totocreate Coverage Results" MODIFIED="1579424673941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/toto$toto_all_locations.coverage" NAME="toto_all_locations Coverage Results" MODIFIED="1579187146841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/toto$totocreate.coverage" NAME="totocreate Coverage Results" MODIFIED="1579186980510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/toto$totoscrape.coverage" NAME="totoscrape Coverage Results" MODIFIED="1579424696933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
